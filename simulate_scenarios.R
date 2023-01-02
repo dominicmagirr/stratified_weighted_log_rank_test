@@ -1,9 +1,7 @@
 library(tidyr)
-##############################################
-# load nphRCT (https://github.com/cran/nphRCT)
-devtools::load_all("~/nphRCT/")
-
+library(nphRCT)
 source("scenarios_list.R")
+
 recruitment_model <- list(rec_model="power", rec_period = 9, rec_power = 1)
 
 sim_one_trial <- function(t_end = 24, scenario, t_star = 12, s_star = NULL){

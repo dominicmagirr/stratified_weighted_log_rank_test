@@ -1,0 +1,23 @@
+---
+output: github_document
+---
+
+# Reproducing simulation results
+
+To reproduce Figures 1 and 2, and Table 2 (OAK and POPLAR results), you first need to download the excel file containing the OAK and POPLAR results from the supplementary section of https://doi.org/10.1038/s41591-018-0134-3. Then save it in your working directory. Then run the file "OAK_POPLAR_trials.R".
+
+
+
+To reproduce Figure 3 (visualization of weights), you first need to download the excel file containing the OAK and POPLAR results from the supplementary section of https://doi.org/10.1038/s41591-018-0134-3. Then save it in your working directory. Then run the file "plot_weights.R".
+
+
+To reproduce the main simulation results (Figure 4 and Figure 5) run the file "simulate_scenarios.R"
+
+
+To reproduce Figures 6,7,8 (simulation scenarios) run the file "plot_scenarios.R".
+
+```{r}
+sessionInfo()
+```
+
+
