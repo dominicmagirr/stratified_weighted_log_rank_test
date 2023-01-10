@@ -2,11 +2,11 @@ library(tidyverse)
 library(survival)
 library(ggpubr)
 library(survminer)
-library(nphRCT)
 ##############################################
+# load nphRCT (https://github.com/cran/nphRCT)
+devtools::load_all("~/nphRCT/")
 #OAK TRIAL
-## this data can be found at https://doi.org/10.1038/s41591-018-0134-3  
-data_oak <- readxl::read_excel("41591_2018_134_MOESM3_ESM.xlsx",sheet = 3) %>% 
+data_oak <- readxl::read_excel("~/NPH/stratified/41591_2018_134_MOESM3_ESM.xlsx",sheet = 3) %>% 
   select(PtID, ECOGGR, OS, OS.CNSR, TRT01P) %>%
   mutate(OS.EVENT = -1 * (OS.CNSR - 1),
          ARM = ifelse(TRT01P == "MPDL3280A","Atezolizumab","Docetaxel"))

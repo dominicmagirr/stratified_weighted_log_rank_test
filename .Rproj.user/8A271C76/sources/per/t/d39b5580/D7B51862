@@ -1,0 +1,26 @@
+{
+    "id": "D7B51862",
+    "path": "~/NPH/stratified/stratified_weighted_log_rank_test/plot_weights.R",
+    "project_path": "plot_weights.R",
+    "type": "r_source",
+    "hash": "2907782140",
+    "contents": "",
+    "dirty": false,
+    "created": 1663919291359.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "5,46",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1663919308,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1663919308139,
+    "read_only": false,
+    "read_only_alternatives": []
+}
